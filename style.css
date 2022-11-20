@@ -1,0 +1,486 @@
+/*tjr mettre en balise form les input de formulaire dans l'html*/
+.rando{
+    background-image: url("images/paysage.png");
+    height: 100vh;
+    padding:0;
+    background-size: cover;
+}
+.elementsNav ul{
+    list-style-type: none;
+}
+
+.elementsNav{
+    display: flex;
+    justify-content: space-between ;
+    padding-top: 60px;
+
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.elementsNav ul li{
+    margin-right: 80px;
+    color: white;
+}
+
+.texteMenu h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin-top: 350px;
+    margin-left: 650px;
+
+}
+.texteMenu p{
+    margin-left: 450px;
+    max-width: 850px;
+    text-align: center;
+    color: white;
+
+}
+.iconFlèche{
+    margin-top: 380px;
+    margin-left: 840px;
+}
+
+.btn-home{
+    font-size: 60px;
+    color: white;
+}
+
+/* FILTRE */
+
+.filtre{
+    background-color: #F5F6F7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.elementsFiltre{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    padding: 0;
+    margin: 0;
+}
+.buttonSee button{
+    background-color: #AA9B77;
+    border-radius: 5px;
+    color: white;
+    font-size: 0,5rem;
+    border-style: none;
+    padding: 10px;
+}
+
+/*MEN*/
+
+.menTitre{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.trait{
+    height: 0,5px;
+    width: 1200px;
+    border: solid 1px #CCCCCC;
+}
+
+/*NUMEROS DE PAGES*/
+
+.pages{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-end;
+    color:#AA9B77;
+}
+.pages p{
+    margin-right: 5px;
+}
+.iconSkip{
+    padding: 0;
+}
+
+/*PRODUITS MEN*/
+
+.productsMen{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tshirt{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #F5F6F7;
+    height: 370px;
+}
+.topTshirt{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;   
+}
+.sizeTshirt{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.colorMen{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.colorBlue{
+    margin-right: 5px;
+    color: #165EB9;
+    border-radius: 90px;
+    height: 15px;
+    width: 15px;
+    border:solid 1px #165EB9;
+    background-color: #165EB9;
+}
+.colorYellow{
+    margin-right: 5px;
+    color: #FFE637;
+    border-radius: 90px;
+    height: 15px;
+    width: 15px;
+    border:solid 1px #FFE637;
+    background-color: #FFE637;
+}
+.colorGrey{
+    margin-right: 15px;
+    color: #535253;
+    border-radius: 90px;
+    height: 15px;
+    width: 15px;
+    border:solid 1px #535253;
+    background-color: #535253;
+}
+.middleTshirt{
+    display: flex;
+    flex-direction: column ;
+    align-content: center;
+    width : 10vw;
+    height : 10vh;
+    margin-left: 50px;
+}
+.bottomTshirt{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between; 
+    margin-top: 170px;
+}
+.nameTshirt{
+   color:#AA9B77;
+}
+.prixTshirt{
+    margin-right: 15px;
+}
+
+.pants{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #F5F6F7;
+    height: 370px;
+}
+.sizePants{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.middlePants{
+    margin-left: 80px;
+}
+.bottomPants{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between; 
+    margin-top: 40px;
+}
+.namePants{
+    color:#AA9B77;
+ }
+.prixPants{
+     margin-right: 15px;
+ }
+.backpack{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #F5F6F7;
+    height: 370px;
+}
+.litri{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.middleBackpack{
+    margin-left: 70px;
+}
+.bottomBackpack{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between; 
+    margin-top: 60px;
+}
+.nameBackpack{
+    color:#AA9B77;
+ }
+.prixBackpack{
+     margin-right: 15px;
+ }
+
+ /*WOMEN*/
+
+ .womenTitre{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+ }
+
+ /*NUMEROS DE PAGES*/
+
+ .pagesWomen{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+    color:#AA9B77;
+}
+.pagesWomen p{
+    margin-left: 5px;
+}
+.iconSkip{
+    padding: 0;
+}
+
+/*PRODUITS WOMEN*/
+
+.productsWomen{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.jacket{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #F5F6F7;
+    height: 370px;
+}
+.sizeJacket{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.middleJacket{
+    margin-left: 55px;
+}
+.bottomJacket{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between; 
+    margin-top: 60px;
+}
+.nameJacket{
+    color:#AA9B77;
+ }
+.prixJacket{
+     margin-right: 15px;
+ }
+
+.shoes{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #F5F6F7;
+    height: 370px;
+}
+.sizeShoes{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.middleShoes{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.bottomShoes{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between; 
+    margin-top: 90px;
+}
+.nameShoes{
+    color:#AA9B77;
+ }
+.prixShoes{
+     margin-right: 15px;
+ }
+
+ .shirt{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: #F5F6F7;
+    height: 370px;
+}
+.topShirt{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;   
+}
+.sizeShirt{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.colorWomen{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.colorPink{
+    margin-right: 5px;
+    color: #D3A7AC;
+    border-radius: 90px;
+    height: 15px;
+    width: 15px;
+    border:solid 1px #D3A7AC;
+    background-color: #D3A7AC;
+}
+.colorWhite{
+    margin-right: 5px;
+    color: white;
+    border-radius: 90px;
+    height: 15px;
+    width: 15px;
+    border:solid 1px white;
+    background-color: white;
+}
+.middleShirt{
+    margin-left: 55px;
+}
+.bottomShirt{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between; 
+    margin-top: 50px;
+}
+.nameShirt{
+    color:#AA9B77;
+ }
+.prixShirt{
+     margin-right: 15px;
+ }
+
+ /* ABOUT US */
+
+ .aboutus{
+    height: 300px;
+    background-color: #AA9B77;
+    position: relative;
+ }
+.elementsAboutus{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.rectangle{
+    height: 200px;
+    width: 800px;
+    border: solid 1px #535253;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+.rectangle p{
+    text-align: center ;
+    width: 500px;
+
+}
+.lorem{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-content: center;
+}
+.loremTexte{
+    z-index: 9;
+    background: #AA9B77;
+    margin-top:-70px;
+    text-align: center;
+    margin-left: 450px;
+    padding: 10px;
+}
+
+/* TWITTER */ 
+
+.twitter{
+    background-color: #535253;
+    height: 50px;
+    padding-top: 7px;
+}
+.bi-twitter{
+    color: #424242;
+    font-size: 25px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #424242;
+    height: 400px;
+}
+.elementsFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+.text{
+    color: white;
+    width: 400px;
+    text-transform: uppercase;
+}
+text p{
+    font-size: 1rem;
+}
+
+.menuFooter a{
+    color: white;
+    text-decoration: none;
+}
